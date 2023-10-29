@@ -1,0 +1,42 @@
+# NuGet packages
+packages/
+
+# Visual Studio build output
+bin/
+obj/
+
+# Visual Studio settings
+.vs/
+
+# NugetFiles
+NuGet.Config
+
+# User specific files
+*.csproj.user
+*.vcxproj.user
+*.DotSettings.user
+*.metaproj
+*.DotSettings
+*.pubxml.user
+
+# Generated files
+*FodyWeavers.xsd
+
+# NCrunch files
+_NCrunch*
+*.ncrunchsolution
+*.ncrunchsolution.user
+*.ncrunchproject*
+
+# Log files
+*.log
+
+# deployment files from build configuration repository
+deploy/
+ReSound.FtPipelineTools*
+
+# Migration files which should be ignored
+MigrationBackup*
+
+# Doxygen output folder
+DocumentationOutput/

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);*.ncrunchproject;</DefaultItemExcludes>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <BaseOutputPath>..\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Device.Gpio" />
+    <PackageReference Include="Iot.Device.Bindings" />
+  </ItemGroup>
+
+</Project>
